@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-jjcuk-рук-отд-лог-e",
+  "editForm": "i-i-s-jjcuk-рук-отд-лог-e",
+  "external": false,
+  "caption": "Рук отд лог",
+  "name": "IISJjcukРукОтдЛогL",
+  "className": "РукОтдЛогL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-jjcuk-рук-отд-лог",
+      "modelProjection": "РукОтдЛогL"
+    }
+  ]
+}

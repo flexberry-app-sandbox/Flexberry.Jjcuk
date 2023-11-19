@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Контрагент",
+  "name": "IISJjcukКонтрагентE",
+  "className": "КонтрагентE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-jjcuk-контрагент",
+      "modelProjection": "КонтрагентE"
+    }
+  ]
+}

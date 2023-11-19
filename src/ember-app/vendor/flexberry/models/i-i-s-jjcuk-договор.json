@@ -1,0 +1,139 @@
+﻿{
+  "name": "IISJjcukДоговор",
+  "modelName": "i-i-s-jjcuk-договор",
+  "className": "Договор",
+  "nameSpace": "IIS.Jjcuk",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "датаЗаключ",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "датаНачала",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "датаОконч",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "обязанПосред",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "контрагент",
+      "relatedTo": "i-i-s-jjcuk-контрагент",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "организация",
+      "relatedTo": "i-i-s-jjcuk-организация",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "рукОтдЛог",
+      "relatedTo": "i-i-s-jjcuk-рук-отд-лог",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ДоговорE",
+      "modelName": "i-i-s-jjcuk-договор",
+      "attrs": [
+        {
+          "name": "датаЗаключ",
+          "caption": "Дата заключ",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "датаОконч",
+          "caption": "Дата оконч",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "датаНачала",
+          "caption": "Дата начала",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "обязанПосред",
+          "caption": "Обязан посред",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ДоговорL",
+      "modelName": "i-i-s-jjcuk-договор",
+      "attrs": [
+        {
+          "name": "датаЗаключ",
+          "caption": "Дата заключ",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "датаОконч",
+          "caption": "Дата оконч",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "датаНачала",
+          "caption": "Дата начала",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "обязанПосред",
+          "caption": "Обязан посред",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

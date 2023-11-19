@@ -1,0 +1,57 @@
+﻿{
+  "applicationCaption": "Jjcuk",
+  "applicationTitle": "Jjcuk",
+  "items": [
+    {
+      "link": null,
+      "menuName": "jjcuk",
+      "caption": "Jjcuk",
+      "title": "Jjcuk",
+      "children": [
+        {
+          "link": "i-i-s-jjcuk-договор-l",
+          "menuName": null,
+          "caption": "Договор",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-jjcuk-контрагент-l",
+          "menuName": null,
+          "caption": "Контрагент",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-jjcuk-персонал-l",
+          "menuName": null,
+          "caption": "Персонал",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-jjcuk-должности-l",
+          "menuName": null,
+          "caption": "Должности",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-jjcuk-организация-l",
+          "menuName": null,
+          "caption": "Организация",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-jjcuk-рук-отд-лог-l",
+          "menuName": null,
+          "caption": "Рук отд лог",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

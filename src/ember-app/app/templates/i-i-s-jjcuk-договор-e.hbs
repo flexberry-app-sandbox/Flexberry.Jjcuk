@@ -1,0 +1,70 @@
+<h3 class="ui header">{{t "forms.i-i-s-jjcuk-договор-e.caption"}}</h3>
+
+<form class="ui form flexberry-vertical-form" role="form">
+  {{flexberry-error error=error}}
+  <div class="field">
+    <div class="flexberry-edit-panel">
+      {{#unless readonly}}
+        <button class="ui button save-button" {{action "save"}}>
+          {{t "forms.edit-form.save-button-text"}}
+        </button>
+        {{#unless model.isNew}}
+          <button class="ui button save-del-button" {{action "delete"}}>
+            {{t "forms.edit-form.delete-button-text"}}
+          </button>
+        {{/unless}}
+      {{/unless}}
+      <button class="ui button close-button" {{action "close"}}>
+        {{t "forms.edit-form.close-button-text"}}
+      </button>
+    </div>
+  </div>
+  <div class="field flexberry-validationsummary-container">
+    <div class="sixteen wide">
+      {{flexberry-validationsummary errors=(v-get validationObject "messages")}}
+    </div>
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-jjcuk-договор-e.датаЗаключ-caption"}}</label>
+    {{flexberry-simpledatetime
+      type="date"
+      readonly=readonly
+      value=model.датаЗаключ
+      class=(if (v-get validationModel "датаЗаключ" "isInvalid") "error")
+      data-test-i-i-s-jjcuk-договор-e-датаЗаключ=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "датаЗаключ" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-jjcuk-договор-e.датаОконч-caption"}}</label>
+    {{flexberry-simpledatetime
+      type="date"
+      readonly=readonly
+      value=model.датаОконч
+      class=(if (v-get validationModel "датаОконч" "isInvalid") "error")
+      data-test-i-i-s-jjcuk-договор-e-датаОконч=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "датаОконч" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-jjcuk-договор-e.датаНачала-caption"}}</label>
+    {{flexberry-simpledatetime
+      type="date"
+      readonly=readonly
+      value=model.датаНачала
+      class=(if (v-get validationModel "датаНачала" "isInvalid") "error")
+      data-test-i-i-s-jjcuk-договор-e-датаНачала=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "датаНачала" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.обязанПосред
+      class=(if (v-get validationModel "обязанПосред" "isInvalid") "error")
+      label=(t "forms.i-i-s-jjcuk-договор-e.обязанПосред-caption")
+      data-test-i-i-s-jjcuk-договор-e-обязанПосред=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "обязанПосред" "message")}}
+  </div>
+</form>

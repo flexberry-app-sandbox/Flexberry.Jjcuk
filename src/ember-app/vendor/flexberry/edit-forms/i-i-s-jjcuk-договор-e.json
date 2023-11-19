@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Договор",
+  "name": "IISJjcukДоговорE",
+  "className": "ДоговорE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-jjcuk-договор",
+      "modelProjection": "ДоговорE"
+    }
+  ]
+}

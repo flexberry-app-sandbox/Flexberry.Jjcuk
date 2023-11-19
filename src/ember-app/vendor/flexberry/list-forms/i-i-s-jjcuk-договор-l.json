@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-jjcuk-договор-e",
+  "editForm": "i-i-s-jjcuk-договор-e",
+  "external": false,
+  "caption": "Договор",
+  "name": "IISJjcukДоговорL",
+  "className": "ДоговорL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-jjcuk-договор",
+      "modelProjection": "ДоговорL"
+    }
+  ]
+}

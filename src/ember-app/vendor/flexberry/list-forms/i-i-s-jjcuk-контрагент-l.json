@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-jjcuk-контрагент-e",
+  "editForm": "i-i-s-jjcuk-контрагент-e",
+  "external": false,
+  "caption": "Контрагент",
+  "name": "IISJjcukКонтрагентL",
+  "className": "КонтрагентL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-jjcuk-контрагент",
+      "modelProjection": "КонтрагентL"
+    }
+  ]
+}

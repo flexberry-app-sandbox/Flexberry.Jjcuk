@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Рук отд лог",
+  "name": "IISJjcukРукОтдЛогE",
+  "className": "РукОтдЛогE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-jjcuk-рук-отд-лог",
+      "modelProjection": "РукОтдЛогE"
+    }
+  ]
+}

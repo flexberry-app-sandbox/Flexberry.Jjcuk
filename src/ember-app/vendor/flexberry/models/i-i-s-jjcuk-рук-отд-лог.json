@@ -1,0 +1,38 @@
+﻿{
+  "name": "IISJjcukРукОтдЛог",
+  "modelName": "i-i-s-jjcuk-рук-отд-лог",
+  "className": "РукОтдЛог",
+  "nameSpace": "IIS.Jjcuk",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "персонал",
+      "relatedTo": "i-i-s-jjcuk-персонал",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "РукОтдЛогE",
+      "modelName": "i-i-s-jjcuk-рук-отд-лог",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "РукОтдЛогL",
+      "modelName": "i-i-s-jjcuk-рук-отд-лог",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

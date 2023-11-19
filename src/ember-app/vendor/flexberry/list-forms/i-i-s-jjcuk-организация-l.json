@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-jjcuk-организация-e",
+  "editForm": "i-i-s-jjcuk-организация-e",
+  "external": false,
+  "caption": "Организация",
+  "name": "IISJjcukОрганизацияL",
+  "className": "ОрганизацияL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-jjcuk-организация",
+      "modelProjection": "ОрганизацияL"
+    }
+  ]
+}
